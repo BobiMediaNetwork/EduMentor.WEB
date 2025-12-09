@@ -8,4 +8,6 @@
   --color-success: #22C55E;
   --color-danger: #EF4444;
   --color-dark: #0F172A;
+
+  --background-image-log-in: url('/src/assets/auth/background.png');
 }
