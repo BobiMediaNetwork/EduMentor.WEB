@@ -2,23 +2,23 @@ import iconImage from '../../assets/auth/log_in_icon.png';
 import {useState} from "react";
 import {Input} from "../common/Input.jsx";
 import {Auth} from "./Auth.jsx";
-// import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 export function LogIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     function handleLogIn() {
         console.log(email);
         console.log(password);
         setEmail('');
         setPassword('');
-        // navigate('/home');
+        navigate('/home');
     }
 
     function handleResetPassword(){
-        // navigate("/send-reset-link");
+        navigate("/forget-password");
     }
 
     return (
