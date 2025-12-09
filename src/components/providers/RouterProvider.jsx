@@ -1,0 +1,14 @@
+import {Route, Routes} from "react-router-dom";
+import {ForgetPassword} from "../auth/ForgetPassword.jsx";
+import {ResetPassword} from "../auth/ResetPassword.jsx";
+import {LogIn} from "../auth/LogIn.jsx";
+
+export function RouterProvider(){
+    return(
+        <Routes>
+            <Route path="/" element={<LogIn/>}/>
+            <Route path="/forget-password" element={<ForgetPassword/>}/>
+            <Route path="/reset-password" element={<ResetPassword/>}/>
+        </Routes>
+    );
+}
