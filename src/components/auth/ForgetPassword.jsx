@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Auth} from "./Auth.jsx";
 import {Input} from "../common/Input.jsx";
 
-export function SendPasswordLink() {
+export function ForgetPassword() {
     const [email, setEmail] = useState('');
 
     function handleSendEmail() {
