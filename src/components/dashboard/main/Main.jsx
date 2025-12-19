@@ -7,7 +7,6 @@ import {DashboardCalendar} from "./cards/DashboardCalendar.jsx";
 import {RecentActivity} from "./cards/RecentActivity.jsx";
 
 export function Main() {
-
     return (
         <div className="h-full w-5/6 p-2 flex flex-col gap-2">
             <MainTitle role="Adminnistrator" subText="School administration"/>
