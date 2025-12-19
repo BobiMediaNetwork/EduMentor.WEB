@@ -14,5 +14,5 @@ export function SideBarButton({buttonName, icon, isActive}) {
         <Button btnText={buttonName} onClick={()=>{console.log("click")}} className={className}>
             <FontAwesomeIcon icon={icon} className="mr-2"/>
         </Button>
-    )
+    );
 }

@@ -9,6 +9,7 @@ export function LogOut(){
     function handleLogout(){
         navigate("/")
     }
+
     return (
         <Button
             className="h-1/10 w-full pl-4 flex items-center text-white p-4 border-t border-slate-700 text-sm gap-2 hover:bg-slate-800 transition duration-200"
@@ -17,5 +18,5 @@ export function LogOut(){
         >
             <FontAwesomeIcon icon={faLock}/>
         </Button>
-    )
+    );
 }

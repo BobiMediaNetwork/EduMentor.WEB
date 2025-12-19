@@ -6,5 +6,5 @@ export function DashboardTitle() {
             <img src={logoIcon} alt="Logo" className="h-5 w-5 rounded-md" />
             EduMentor
         </div>
-    )
+    );
 }

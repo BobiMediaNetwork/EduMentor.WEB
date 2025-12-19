@@ -20,5 +20,5 @@ export function MainTitle({role, subText}) {
                 </Button>
             </div>
         </div>
-    )
+    );
 }

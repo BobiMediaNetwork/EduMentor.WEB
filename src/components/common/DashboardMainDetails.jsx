@@ -4,5 +4,5 @@ export function DashboardMainDetails({className, title, children}) {
             <h1 className="font-bold text-md">{title}</h1>
             {children}
         </div>
-    )
+    );
 }

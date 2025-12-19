@@ -19,5 +19,5 @@ export function FastAction(){
                 </div>
             </div>
         </DashboardMainDetails>
-    )
+    );
 }

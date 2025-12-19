@@ -13,5 +13,5 @@ export function StatisticsCard({mainText, number, icon, bgColor, className}) {
                 </div>
             </div>
         </div>
-    )
+    );
 }

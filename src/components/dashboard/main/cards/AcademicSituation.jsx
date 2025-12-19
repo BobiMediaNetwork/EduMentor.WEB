@@ -17,5 +17,5 @@ export function AcademicSituation() {
                 </div>
             </div>
         </DashboardMainDetails>
-    )
+    );
 }

@@ -25,5 +25,6 @@ export function SideBar() {
                 <SideBarButton buttonName="Settings" icon={faCog} />
             </div>
             <LogOut/>
-        </div>)
+        </div>
+    );
 }

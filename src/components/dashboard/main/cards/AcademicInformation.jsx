@@ -19,5 +19,5 @@ export function AcademicInformation({mainInformation, severity}) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
