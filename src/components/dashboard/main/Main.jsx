@@ -3,7 +3,7 @@ import {faChalkboardTeacher, faClose, faGraduationCap, faSchool} from "@fortawes
 import {StatisticsCard} from "./cards/StatisticsCard.jsx";
 import {AcademicSituation} from "./cards/AcademicSituation.jsx";
 import {FastAction} from "./cards/FastActions.jsx";
-import {Calendar} from "./cards/Calendar.jsx";
+import {DashboardCalendar} from "./cards/DashboardCalendar.jsx";
 
 export function Main() {
     return (
@@ -23,7 +23,7 @@ export function Main() {
                 </div>
                 <div className="w-1/3 h-full flex flex-col gap-3">
                     <FastAction/>
-                    <Calendar/>
+                    <DashboardCalendar/>
                 </div>
             </div>
         </div>
