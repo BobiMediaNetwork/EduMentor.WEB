@@ -6,7 +6,7 @@ export function SideBarButton({buttonName, icon, isActive}) {
         "text-slate-200 text-md rounded-md " +
         "my-2 w-full px-3 py-2 " +
         "flex items-center " +
-        "hover:bg-slate-800 transition duration-200 ";
+        "hover:bg-slate-800";
     if (isActive) {
         className+= " bg-indigo-600"
     }
