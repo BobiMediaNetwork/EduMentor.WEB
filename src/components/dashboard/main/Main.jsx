@@ -1,7 +1,6 @@
 import {MainTitle} from "./cards/MainTitle.jsx";
 import {faChalkboardTeacher, faClose, faGraduationCap, faSchool} from "@fortawesome/free-solid-svg-icons";
 import {StatisticsCard} from "./cards/StatisticsCard.jsx";
-import {Button} from "../../common/Button.jsx";
 import {AcademicSituation} from "./cards/AcademicSituation.jsx";
 import {FastAction} from "./cards/FastActions.jsx";
 import {RecentActivity} from "./cards/RecentActivity.jsx";
