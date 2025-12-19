@@ -1,8 +1,8 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-export function StatisticsCard({mainText, number, icon, bgColor}){
+export function StatisticsCard({mainText, number, icon, bgColor, className}) {
     return (
-        <div className="bg-stone-100 h-full w-1/4 rounded-2xl shadow-xl flex">
+        <div className={"bg-stone-100 h-full rounded-2xl shadow-xl flex " + className}>
             <div className="h-full w-4/6 flex flex-col justify-center pl-6">
                 <p className="text-sm text-stone-500">{mainText}</p>
                 <h1 className="font-bold text-3xl">{new Intl.NumberFormat('ro-RO').format(number)}</h1>
