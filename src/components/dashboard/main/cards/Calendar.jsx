@@ -1,10 +1,10 @@
 import {DashboardMainDetails} from "../../../common/DashboardMainDetails.jsx";
 
-export function RecentActivity(){
+export function Calendar(){
     return(
         <DashboardMainDetails
             className="w-full h-2/3 bg-stone-100 shadow-xl rounded-2xl"
-            title="Recent Activity"
+            title="Calendar"
         >
 
         </DashboardMainDetails>
