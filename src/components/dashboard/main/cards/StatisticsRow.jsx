@@ -2,7 +2,7 @@ import {StatisticsCard} from "./StatisticsCard.jsx";
 import {faChalkboardTeacher, faClose, faGraduationCap, faSchool, faUser} from "@fortawesome/free-solid-svg-icons";
 
 export function StatisticsRow() {
-    const width = "1/5"
+    const width = "w-1/5"
     return (
         <div className="h-2/10 w-full py-4 gap-3 flex items-center justify-center">
             <StatisticsCard mainText="Students" number="1245" icon={faGraduationCap} bgColor="bg-blue-100"
