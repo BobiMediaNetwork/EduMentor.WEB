@@ -10,7 +10,7 @@ export function RouterProvider(){
             <Route path="/" element={<LogIn/>}/>
             <Route path="/forget-password" element={<ForgetPassword/>}/>
             <Route path="/reset-password" element={<ResetPassword/>}/>
-            <Route path="/app" element={<Dashboard/>}/>
+            <Route path="/home" element={<Dashboard/>}/>
         </Routes>
     );
 }
