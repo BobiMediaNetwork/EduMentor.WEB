@@ -25,11 +25,13 @@ export function LogIn() {
         <Auth iconImage={iconImage} mainText="Sign in with your email">
             <Input
                 className='mt-4'
+                size="w-5/6"
                 placeholder="Email" value={email}
                 onChange={(e) => setEmail(e.target.value)}/>
             <Input
                 className='mt-2'
                 placeholder="Password"
+                size="w-5/6"
                 type="password" value={password}
                 onChange={(e) => setPassword(e.target.value)}/>
             <button

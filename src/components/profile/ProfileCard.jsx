@@ -5,7 +5,7 @@ export function ProfileCard({title, lines}) {
                 {title}
             </div>
             {lines.map((line) => (
-                <div className="h-2/20 w-full flex">
+                <div className="h-2/20 w-full flex" key={line.index}>
                     <div className="h-full w-3/8 flex flex-col items-start justify-center px-3 text-sm text-slate-400">
                         {line.key}
                     </div>
