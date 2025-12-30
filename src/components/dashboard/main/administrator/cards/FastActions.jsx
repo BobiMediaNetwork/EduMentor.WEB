@@ -1,5 +1,5 @@
-import {DashboardMainDetails} from "../../../common/DashboardMainDetails.jsx";
-import {Button} from "../../../common/Button.jsx";
+import {DashboardMainDetails} from "../../../../common/DashboardMainDetails.jsx";
+import {Button} from "../../../../common/Button.jsx";
 
 export function FastAction(){
     const btnClassName = "h-full w-1/2 bg-indigo-500 text-stone-200 rounded-lg shadow-sm";

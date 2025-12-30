@@ -1,5 +1,5 @@
 import {AcademicInformation} from "./AcademicInformation.jsx";
-import {DashboardMainDetails} from "../../../common/DashboardMainDetails.jsx";
+import {DashboardMainDetails} from "../../../../common/DashboardMainDetails.jsx";
 
 export function AcademicSituation() {
     return (

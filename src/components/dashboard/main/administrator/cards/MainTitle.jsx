@@ -1,4 +1,4 @@
-import {Button} from "../../../common/Button.jsx";
+import {Button} from "../../../../common/Button.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faIdCard} from "@fortawesome/free-solid-svg-icons";
 
