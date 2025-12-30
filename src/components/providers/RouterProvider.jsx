@@ -4,6 +4,7 @@ import {ResetPassword} from "../auth/ResetPassword.jsx";
 import {LogIn} from "../auth/LogIn.jsx";
 import {Dashboard} from "../dashboard/Dashboard.jsx";
 import {Profile} from "../profile/Profile.jsx";
+import {Roles} from "../roles/Roles.jsx";
 
 export function RouterProvider(){
     return(
@@ -13,6 +14,7 @@ export function RouterProvider(){
             <Route path="/reset-password" element={<ResetPassword/>}/>
             <Route path="/home" element={<Dashboard/>}/>
             <Route path="/profile" element={<Profile/>}/>
+            <Route path="/roles" element={<Roles/>}/>
         </Routes>
     );
 }
