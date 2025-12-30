@@ -20,7 +20,7 @@ export function SideBar({setRole}) {
             if (prev === 4)
                 return 0
             return prev + 1
-        })
+        });
     }
 
     return (
