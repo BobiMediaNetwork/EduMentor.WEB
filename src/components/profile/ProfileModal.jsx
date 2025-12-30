@@ -68,5 +68,5 @@ export const Modal = forwardRef(function Modal({title}, ref) {
             </div>
         </dialog>,
         document.getElementById('modal-root'),
-    )
+    );
 });
