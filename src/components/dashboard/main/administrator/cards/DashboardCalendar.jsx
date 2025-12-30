@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {DashboardMainDetails} from "../../../common/DashboardMainDetails.jsx";
+import {DashboardMainDetails} from "../../../../common/DashboardMainDetails.jsx";
 //Maybe will rewrite
 export function DashboardCalendar() {
     const [currentDate, setCurrentDate] = useState(new Date());

@@ -1,4 +1,4 @@
-import {DashboardMainDetails} from "../../../common/DashboardMainDetails.jsx";
+import {DashboardMainDetails} from "../../../../common/DashboardMainDetails.jsx";
 
 export function RecentActivity(){
     const items = [

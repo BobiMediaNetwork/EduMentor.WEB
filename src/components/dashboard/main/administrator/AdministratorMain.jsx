@@ -1,14 +1,13 @@
-import {MainTitle} from "./cards/MainTitle.jsx";
 import {AcademicSituation} from "./cards/AcademicSituation.jsx";
 import {FastAction} from "./cards/FastActions.jsx";
 import {DashboardCalendar} from "./cards/DashboardCalendar.jsx";
 import {RecentActivity} from "./cards/RecentActivity.jsx";
 import {StatisticsRow} from "./cards/StatisticsRow.jsx";
+import {MainDashboard} from "../../../common/MainDashboard.jsx";
 
-export function Main() {
+export function AdministratorMain() {
     return (
-        <div className="h-full w-5/6 p-2 flex flex-col gap-2">
-            <MainTitle role="Adminnistrator" subText="School administration"/>
+        <MainDashboard role="Adminnistrator" subText="School administration">
             <StatisticsRow/>
             <div className="h-7/10 w-full flex gap-3">
                 <div className="w-2/3 h-full flex flex-col gap-3">
@@ -20,6 +19,6 @@ export function Main() {
                     <DashboardCalendar/>
                 </div>
             </div>
-        </div>
+        </MainDashboard>
     );
 }
