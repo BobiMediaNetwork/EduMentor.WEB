@@ -1,8 +1,15 @@
-import {Button} from "../../../../common/Button.jsx";
+import {Button} from "./Button.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faIdCard} from "@fortawesome/free-solid-svg-icons";
+import {useNavigate} from "react-router-dom";
 
 export function MainTitle({role, subText}) {
+    const navigate = useNavigate();
+
+    function goToProfile() {
+        navigate("/profile");
+    }
+
     return (
         <div className="w-full h-1/10 bg-stone-100 rounded-lg shadow-xl flex">
             <div className="h-full w-5/7 py-2 px-4">
@@ -13,9 +20,7 @@ export function MainTitle({role, subText}) {
                 <Button
                     className="bg-stone-300 px-5 py-2 rounded-2xl hover:bg-stone-400 transition duration-300"
                     btnText="Bolba-Mateescu Andrei"
-                    onClick={() => {
-                        console.log("click")
-                    }}>
+                    onClick={goToProfile}>
                     <FontAwesomeIcon icon={faIdCard} className="mr-2"/>
                 </Button>
             </div>

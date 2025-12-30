@@ -1,4 +1,3 @@
-import {SideBar} from "./sidebar/SideBar.jsx";
 import {AdministratorMain} from "./main/administrator/AdministratorMain.jsx";
 import {MainScreen} from "../screen/MainScreen.jsx";
 import {useState} from "react";
@@ -23,8 +22,7 @@ export function Dashboard() {
     }
 
     return (
-        <MainScreen>
-            <SideBar setRole={setRole}/>
+        <MainScreen setRole={setRole}>
             {renderRoleDashboard()}
         </MainScreen>
     );

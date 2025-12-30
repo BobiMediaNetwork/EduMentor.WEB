@@ -10,4 +10,5 @@
   --color-dark: #0F172A;
 
   --background-image-log-in: url('/src/assets/auth/background.png');
+  --background-image-user: url('/src/assets/profile/user_pic.jpg');
 }
