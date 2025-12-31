@@ -1,6 +1,6 @@
 import {Button} from "../common/Button.jsx";
 import {useRef} from "react";
-import {Modal} from "./ProfileModal.jsx";
+import {Modal} from "../modal/ProfileModal.jsx";
 
 export function ProfileTitle() {
     const modal = useRef();
