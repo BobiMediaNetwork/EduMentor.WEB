@@ -1,6 +1,6 @@
 import {DashboardTitle} from "./DashboardTitle.jsx";
 import {LogOut} from "./LogOut.jsx";
-import {SideBarButton} from "./SideBarButton.jsx";
+import {ButtonWithIcon} from "../../common/ButtonWithIcon.jsx";
 import {
     faChalkboardTeacher,
     faClipboardList,
@@ -50,7 +50,7 @@ export function SideBar() {
             <DashboardTitle/>
             <div className="h-8/10 w-full flex flex-col items-start px-4 py-1">
                 {menuItems.map((item) => (
-                    <SideBarButton
+                    <ButtonWithIcon
                         key={item.label}
                         buttonName={item.label}
                         icon={item.icon}
